@@ -35,9 +35,9 @@ The dashboard highlights training effectiveness, attendance, and feedback patter
 ## 📈 Dashboard Preview  
 
 
-![Dashboard Overview](./Screenshots/Overview.png)  
-![Analysis](./Screenshots/Analysis.png)  
-![Insights](./Screenshots/Insights.png)  
+![Dashboard Overview](./Screenshots/Overview.PNG)  
+![Analysis](./Screenshots/Analysis.PNG)  
+![Insights](./Screenshots/Insights.PNG)  
 ---
 
 ## 🔑 Business Impact  
