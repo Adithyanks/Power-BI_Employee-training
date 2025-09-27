@@ -1,53 +1,50 @@
-# 📊 Data Preparation & Power BI Analysis
+# 📊 Employee Training Performance Analysis – Power BI Dashboard  
 
-## 1️⃣ Excel Data Cleaning Tasks
+## 📌 Project Overview  
+This project analyzes employee training performance using **Power BI**, transforming raw training records into actionable insights for HR and management teams.  
 
-- **Standardize Gender**  
-  Normalize gender values (e.g., M, F, male, female) to standardized `Male` and `Female`.
-
-- **Unify Training Dates**  
-  Convert `Training_Date` entries to a consistent `YYYY-MM-DD` format.
-
-- **Handle Missing or Zero Scores**  
-  Identify and address missing or zero values in `Pre_Training_Score` and `Post_Training_Score`.
-
-- **Convert Attendance to Binary**  
-  Map attendance values for analysis:  
-  - `Yes`, `P` → `1` (Attended)  
-  - `No`, `A` → `0` (Missed)
+The dashboard highlights training effectiveness, attendance, and feedback patterns, helping organizations measure ROI on training programs and optimize workforce development.  
 
 ---
 
-## 2️⃣ Power BI Analysis Tasks
-
-### 🔢 Calculated Columns
-- **Improvement:** `Post_Training_Score - Pre_Training_Score`
-- **Experience Level:** Derived from `Join_Date`  
-  (e.g., tenure < 2 years = Junior)
-
-### 📊 Visualizations
-- Improvement by **Department** and **Training Program**
-- Manager & Peer Feedback Scores by **Education Level**
-- Attendance Rate by **Department**
-
-### 🎯 KPI Cards
-- Average Improvement
-- % of Employees with >20 Improvement
-- Average Manager & Peer Feedback Scores
+## 🛠️ Tools & Technologies  
+- **Power BI** – Data modeling, DAX measures, interactive dashboard  
+- **Excel** – Data cleaning and preparation  
+- **Data Visualization** – KPIs, charts, and reports  
 
 ---
 
-## ✅ Deliverables
+## 🔹 Key Features  
+- **Data Cleaning & Preparation**  
+  - Standardized raw employee training data (dates, scores, attributes)  
+  - Handled missing values and ensured data consistency  
 
-- Cleaned and standardized dataset (**Excel**)
-- Power BI report (`.pbix`) with:
-  - Calculated fields
-  - Visuals and dashboards
-  - KPI cards
+- **Data Modeling**  
+  - Calculated measures:  
+    - *Improvement Score = Post Training – Pre Training*  
+    - Employee categorization by **tenure** and **education level**  
+
+- **Dashboard Insights**  
+  - Training effectiveness by department  
+  - Attendance vs. improvement distribution  
+  - Manager and peer feedback analysis  
+  - KPI cards: average improvement, % employees with positive progress, satisfaction levels  
 
 ---
 
-## 🛠️ Tools
+## 📈 Dashboard Preview  
 
-- **Excel:** Data cleaning and preparation
-- **Power BI:** Data modeling, visualization, and reporting
+
+![Dashboard Overview](./Screenshots/Overview.png)  
+![Analysis](./Screenshots/Analysis.png)  
+![Insights](./Screenshots/Insights.png)  
+---
+
+## 🔑 Business Impact  
+- Provides HR teams with **data-driven insights** on training outcomes  
+- Helps identify departments with the most improvement opportunities  
+- Supports strategic workforce planning and training investment decisions  
+
+---
+
+## 📂 Repository Structure  
