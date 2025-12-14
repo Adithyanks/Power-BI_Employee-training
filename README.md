@@ -45,6 +45,3 @@ The dashboard highlights training effectiveness, attendance, and feedback patter
 - Helps identify departments with the most improvement opportunities  
 - Supports strategic workforce planning and training investment decisions  
 
----
-
-## 📂 Repository Structure  
